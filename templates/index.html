@@ -13,7 +13,7 @@
         {%   set date = article.date.date() %}
             <div class="thumb">
                 <a href="{{ SITEURL }}/{{ article.url }}">
-                    <img src="{{ article.thumbnail }}" class="thumb" id="ima{{ loop.index }}" border="0" title="{{article.title}}" alt="{{ article.title }}" />
+                    <img src="{{ SITEURL }}/{{ article.thumbnail }}" class="thumb" id="ima{{ loop.index }}" border="0" title="{{article.title}}" alt="{{ article.title }}" />
                     <div class="title_bkground"></div>
                     <h2 class="thumb">{% if article.shorttitle %}{{article.shorttitle}}{% else %}{{article.title|truncate(40)}}{% endif %}</h2>
                 </a>
