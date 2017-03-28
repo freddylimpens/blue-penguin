@@ -68,6 +68,7 @@ header, #wrapper {
     min-width: 500px;
     max-width: 910px;
     margin: auto;
+    font-family: sans-serif;
 }
 
 a {
@@ -346,6 +347,11 @@ footer p { margin: 0; }
 /***********************/
 
 /* # Index page  */
+section.thumbs_container{
+    margin:auto;
+    min-height: 600px;
+    max-width: 440px;    
+}
 
 div.thumb{
     margin: 10px;
@@ -369,6 +375,26 @@ img.thumb {
    right: -100%;
    top: -100%;
    bottom: -100%;
+}
+
+h2.thumb { /*Articles thumb title*/
+    z-index: 100;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    margin: 0;
+    padding: 0.3em;
+    /*text-shadow: 1px 3px 3px rgba(150, 150, 150, 0.8);*/
+}
+
+div.title_bkground{
+    position: absolute;
+    display: block;
+    z-index: 10;
+    background-color: rgba(0,0,0,0.1);
+    width: 100%;
+    height: 100%;
 }
 
 /* Posts */
