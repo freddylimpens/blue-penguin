@@ -95,7 +95,7 @@ h1, h2, h3 {
 }
 
 img, p, .post > .highlight, .highlighttable, h4, h5, h6 {
-    margin-top: 1.2em;
+    /*margin-top: 1.2em;*/
 }
 
 blockquote {
@@ -401,4 +401,8 @@ h2.title a{
 
 img.right{ /* see above .right class*/
     margin-left: 1em;
+}
+
+img.title_image{
+    margin: 1em auto;
 }
