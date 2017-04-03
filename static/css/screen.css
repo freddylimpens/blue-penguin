@@ -362,7 +362,7 @@ div.thumb{
     margin: 10px;
     float: left;
     width: 240px;
-    height: 215px;
+    height: 217px;
     overflow: hidden;
     position: relative;
     border-radius: 0.3em;
@@ -379,24 +379,22 @@ img.thumb {
 }
 
 h2.thumb { /*Articles thumb title*/
-    z-index: 100;
-    display: block;
-    position: absolute;
-    bottom: 0;
     color: white;
-    margin: 0;
-    padding: 0.4em;
-    font-size: 1.25em;
-    text-align: center;
+    font-size: 1em;
+    font-weight: 500;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 div.title_bkground{
     position: absolute;
-    display: block;
+    display: table;
     z-index: 1;
     background-color: rgba(30,30,30,1);
     width: 100%;
-    height: 100%;
+    height: 67px;
+    bottom: 0;
+    text-align: center;
 }
 
 /* Posts */

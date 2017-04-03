@@ -14,8 +14,9 @@
             <div class="thumb">
                 <a href="{{ SITEURL }}/{{ article.url }}">
                     <img src="{{ SITEURL }}/{{ article.thumbnail }}" class="thumb" id="ima{{ loop.index }}" border="0" title="{{article.title}}" alt="{{ article.title }}" />
-                    <div class="title_bkground"></div>
-                    <h2 class="thumb">{% if article.shorttitle %}{{article.shorttitle}}{% else %}{{article.title|truncate(40)}}{% endif %}</h2>
+                    <div class="title_bkground">
+                        <h2 class="thumb">{% if article.shorttitle %}{{article.shorttitle}}{% else %}{{article.title|truncate(40)}}{% endif %}</h2>
+                    </div>
                 </a>
             </div>
     {% endfor %}
