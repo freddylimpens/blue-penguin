@@ -95,7 +95,7 @@ h1, h2, h3 {
 }
 
 img, p, .post > .highlight, .highlighttable, h4, h5, h6 {
-    /*margin-top: 1.2em;*/
+    margin-top: 1.2em;
 }
 
 blockquote {
@@ -265,7 +265,7 @@ header h1 {
 header h2 {
     font-size: 1em;
     margin: .3em 0;
-    color: #DDD;
+    color: #BCBCBC;
 }
 
 #content {
@@ -347,17 +347,22 @@ footer p { margin: 0; }
 /***********************/
 
 /* # Index page  */
+
+div.header_box h2 i{
+    color: rgba(116,116,116,1);
+}
+
 section.thumbs_container{
     margin:auto;
     min-height: 600px;
-    max-width: 520px;    
+    max-width: 780px;    
 }
 
 div.thumb{
     margin: 10px;
     float: left;
     width: 240px;
-    height: 220px;
+    height: 215px;
     overflow: hidden;
     position: relative;
     border-radius: 0.3em;
@@ -380,15 +385,16 @@ h2.thumb { /*Articles thumb title*/
     bottom: 0;
     color: white;
     margin: 0;
-    padding: 0.3em;
-    /*text-shadow: 1px 3px 3px rgba(150, 150, 150, 0.8);*/
+    padding: 0.4em;
+    font-size: 1.25em;
+    text-align: center;
 }
 
 div.title_bkground{
     position: absolute;
     display: block;
     z-index: 1;
-    background-color: rgba(68,68,68,1);
+    background-color: rgba(30,30,30,1);
     width: 100%;
     height: 100%;
 }
@@ -396,7 +402,7 @@ div.title_bkground{
 /* Posts */
 
 h2.title a{
-    color: rgba(68,68,68,1);
+    color: rgba(30,30,30,1);
 }
 
 img.right{ /* see above .right class*/
